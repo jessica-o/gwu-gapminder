@@ -13,3 +13,13 @@ life_exp_continent <- gapminder %>%
   avg_lifeExp = mean(lifeExp)
   )
 life_exp_continent  
+
+
+# Calculate the life expectancy by year in Canada
+life_exp_canada <- gapminder %>%
+  filter(country == "Canada") %>%
+  select(country, year, lifeExp)
+
+life_exp_canada
+  
+  
