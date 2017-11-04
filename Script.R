@@ -22,4 +22,4 @@ life_exp_canada <- gapminder %>%
 
 life_exp_canada
   
-  
+# Get the mean gdp per continent for the year 1972
